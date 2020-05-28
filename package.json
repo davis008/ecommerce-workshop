@@ -1,0 +1,46 @@
+{
+  "name": "ecommerce-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davis008/ecommerce-workshop.git"
+  },
+  "keywords": [],
+  "author": "Davis Jaber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davis008/ecommerce-workshop/issues"
+  },
+  "homepage": "https://github.com/davis008/ecommerce-workshop#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "@babel/preset-react": "^7.10.1",
+    "@testing-library/react": "^10.0.4",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "@emotion/babel-preset-css-prop": "^10.0.27",
+    "@emotion/core": "^10.0.28",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
+  }
+}
